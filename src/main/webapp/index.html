@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Café da manhã</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h3>Cadastro Café da manhã</h3>
+        </div>
+        <div class="form" >
+        <form action="CreateAndFind" method="POST" >
+            <div class="field">
+                <label class="label">Nome</label>
+                <input class="input" name="nome" type="text" maxlength="40" placeholder="Nome do Funcionário">
+
+                <label class="label">Cpf</label>
+                <input class="input" name="cpf" type="text" maxlength="11" placeholder="Cpf">
+
+                <label class="label">Item</label>
+                <input class="input" name="item" type="text" maxlength="50" placeholder="Item que irá levar">
+            </div>
+
+            <div class="button">
+                <button class="button-submit" type="submit">Cadastrar</button>
+                <button class="button-reset" type="reset">Limpar</button>
+            </div>
+        </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
